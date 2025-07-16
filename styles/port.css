@@ -10,7 +10,7 @@
 
   /* header */
 .header{
-    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-image: url('../images/developer.png'), url('../Images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right; 
     background-color: #FFF8F3;
@@ -105,4 +105,32 @@ nav li a{
     background-color: aliceblue;
     border: 3px solid #FD6E0A;
     color: #FD6E0A;
+}
+
+/* section styles */
+.section-about{
+    margin: 210px 200px;
+    /* padding: 1px 1px; */
+    background-color: #FFF8F3;
+    border: 1px solid #FFF8F3 ;
+}
+.about{
+    margin: 100px 100px;
+    text-align: center;
+    max-width: 1140px;
+    /* background-color: #312218; */
+    /* padding: 10px 10px ; */
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 138px;
+}
+.section-discription{
+    font-size: 18px;
+    color: #757575;
+}
+.about-details{
+    display: flex;
+    justify-content: space-around;
 }
